@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&display=swap');
+.navbar-brand img{
+
+    height: 7vh;
+    margin-left: 5rem;
+}
+.navbar{
+    background-color: white;
+}
+
+ .active{
+    color:rgb(101, 74,255) !important;
+}
+ .active:hover{
+    color:black !important;
+}
+.navbar .navbar-nav .nav-link:hover {
+    color: rgb(101, 74,255);
+  }
+.nav-link {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+@media screen and (max-width:600px) {
+
+    .navbar-brand img{
+
+        height: 7vh;
+        margin-left: 0rem;
+    }
+
+}
+   
+    

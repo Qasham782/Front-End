@@ -1,0 +1,747 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+::-webkit-scrollbar {
+    width: 0.8rem;
+}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(to bottom, #33ccff 0%, #cc33ff 100%);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #ff9933 0%, #ff3300 100%);
+    border-radius: 5rem;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: black;
+    border-radius: 1rem;
+    background-clip: content-box;
+}
+
+/* part1  */
+.part1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.part1 .talk {
+    width: 50%;
+    padding: 2rem 4rem;
+}
+
+.part1 .talk h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(101, 74, 255);
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.part1 .talk p {
+    font-size: 1.3rem;
+    color: black;
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.part1 .img {
+    width: 50%;
+}
+
+.part1 .img img {
+    width: 100%;
+}
+
+.btn {
+    margin-top: 1rem;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    color: black;
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px 4px rgb(101, 74, 255);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn:hover {
+    background-color: white;
+    box-shadow: 0 6px 6px rgb(101, 74, 255);
+    color: black;
+}
+
+/* parrt2 */
+.part2 {
+    background-color: rgb(101, 74, 255);
+    margin-top: 0rem;
+    padding-bottom: 5rem;
+}
+
+.part2 h2 {
+    padding-top: 4rem;
+    font-size: 3rem;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 8px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.part2 p {
+    font-size: 1.3rem;
+    color: white;
+    line-height: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.part2 .elements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    padding-top: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.part2 .elements .card-title {
+    color: rgb(101, 74, 255);
+}
+
+.part2 .elements .card {
+    border-radius: 20px;
+}
+
+.part2 .elements .card-text {
+    color: black;
+    font-size: 1.1rem;
+    padding-top: 0.7rem;
+    font-weight: bold;
+}
+
+.part2 .elements .card img {
+    object-fit: contain;
+    height: 15vh;
+    padding-top: 1rem;
+}
+
+.part2 .elements .card .btn {
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color: rgb(101, 74, 255);
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px rgb(101, 74, 255);
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2rem;
+}
+
+/* part3 */
+.part3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 4rem;
+    padding: 2rem 4rem;
+    margin-bottom: 5rem;
+}
+
+.part3 .talk {
+    width: 50%;
+    order: 1;
+    padding: 2rem 4rem;
+}
+
+.part3 .talk h4 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    color: rgb(101, 74, 255);
+}
+
+.part3 .talk h2 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: black;
+    padding-bottom: 10px;
+    letter-spacing: 4px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.part3 .talk p {
+    font-size: 1.1rem;
+    color: black;
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+.part3 .img {
+    width: 50%;
+
+}
+
+.part3 .img img {
+    width: 80%;
+    height: 800px;
+    border-radius: 10px;
+}
+
+.part3 .talk .talk2 {
+    padding-top: 1rem;
+}
+
+.part3 .talk .talk2 img {
+    object-fit: contain;
+    height: 10vh;
+    float: left;
+
+}
+
+.part3 .talk .talk2 p {
+    padding-left: 6rem;
+    font-size: 1rem;
+}
+
+/* part4 */
+.part4 {
+    background-color: rgb(229, 229, 229);
+    padding-bottom: 8rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.part4-heading h2 {
+    font-size: 3.6rem;
+    font-weight: 500;
+    color: rgb(101, 74, 255);
+    padding-bottom: 10px;
+    letter-spacing: 4px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.part4-heading p {
+    font-size: 1.2rem;
+    color: black;
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.part4 .elements {
+
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    font-size: 1rem;
+    padding: 2rem 4rem;
+    background-color: rgb(187, 184, 184);
+}
+
+.part4 .elements2 {
+
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    font-size: 1rem;
+    padding: 2rem 4rem;
+    background-color: white;
+    margin-top: 0.8rem;
+}
+
+.part4 .elements3 {
+
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    font-size: 1rem;
+    padding: 2rem 4rem;
+    background-color: rgb(101, 74, 255);
+    margin-top: 0.8rem;
+    color: white;
+}
+
+/* part5 */
+.part5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5rem;
+    justify-content: space-around;
+    padding: 2rem 4rem;
+    margin-bottom: 4rem;
+}
+
+.part5 .talk {
+    width: 45%;
+}
+
+.part5 .talk h2 {
+    font-size: 2.1rem;
+    font-weight: 100;
+    padding-bottom: 10px;
+    letter-spacing: 4px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.part5 .talk p {
+    font-size: 1rem;
+    color: black;
+    line-height: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.part5 .talk .p2 {
+    font-size: 1.1rem;
+    color: black;
+    line-height: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
+
+.part5 .img {
+    width: 40%;
+}
+
+.part5 .img img {
+    width: 100%;
+}
+
+/* part7 */
+.part7 {
+    height: 60vh;
+    background: url(./img/man-trying-futuristic-device.jpg) no-repeat center top fixed;
+    display: table;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+/* part6 */
+.part6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5rem;
+    justify-content: space-around;
+    padding: 2rem 4rem;
+    margin-bottom: 5rem;
+}
+
+.part6 .talk {
+    width: 45%;
+}
+
+.part6 .talk2 {
+    width: 45%;
+}
+
+.part6 .talk h2 {
+    font-size: 2.3rem;
+    font-weight: 100;
+    color: rgb(101, 74, 255);
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.part6 .talk2 h2 {
+    font-size: 3.5rem;
+    color: rgb(101, 74, 255);
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.part6 .talk2 h4 {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.part6 .talk p {
+    font-size: 1rem;
+    color: black;
+    line-height: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer i {
+    color: white;
+}
+
+footer .btn:hover {
+    background-color: transparent;
+}
+
+footer i:hover {
+    color: black;
+}
+
+.rights {
+    animation: animate 1s linear infinite;
+    font-size: x-large;
+    margin-bottom: 5rem;
+}
+
+@keyframes animate {
+
+    0%,
+    18%,
+    20%,
+    50.1%,
+    60%,
+    65.1%,
+    80%,
+    90.1%,
+    92% {
+        color: white;
+        box-shadow: none;
+    }
+
+    18.1%,
+    20.1%,
+    30%,
+    50%,
+    60.1%,
+    65%,
+    80.1%,
+    90%,
+    92.1%,
+    100% {
+        text-shadow: 0 0 10px rgb(101, 74, 255), 0 0 20px rgb(101, 74, 255), 0 0 40px rgb(101, 74, 255), 0 0 80px rgb(101, 74, 255), 0 0 120px rgb(101, 74, 255);
+    }
+
+}
+
+
+/* mediasdg */
+
+@media screen and (max-width:1000px) {
+
+    .part1 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .part1 .talk {
+        width: 100%;
+        margin: 20px 0 30px 0;
+    }
+
+    .part1 .talk h2 {
+        font-size: 3.2rem;
+    }
+
+    .part1 .talk p {
+        font-size: 1.5rem;
+    }
+
+    .part1 .img {
+        width: 100%;
+    }
+
+
+    .part2 h2 {
+        font-size: 3.2rem;
+    }
+
+    .part2 p {
+        font-size: 1.5rem;
+    }
+
+    .part2 .elements {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .part2 .elements .card {
+        margin-bottom: 3rem;
+    }
+
+    .part2 .elements .card-text {
+        font-size: 1rem;
+    }
+
+    .part2 .elements .card img {
+        height: 12vh;
+    }
+
+    .part3 {
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+    .part3 .talk {
+        width: 100%;
+    }
+
+    .part3 .talk h4 {
+        font-size: 1.2rem;
+    }
+
+    .part3 .talk h2 {
+        font-size: 3.6rem;
+    }
+
+    .part3 .talk p {
+        font-size: 1.1rem;
+        color: black;
+        line-height: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        width: 100%;
+    }
+
+    .part3 .img {
+        width: 100%;
+
+    }
+
+    .part3 .img img {
+        width: 100%;
+        border-radius: 0.5rem;
+    }
+
+
+
+    .part3 .talk .talk2 img {
+        height: 10vh;
+        float: none;
+
+    }
+
+    .part3 .talk .talk2 p {
+        padding-left: 0rem;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .part4-heading h2 {
+        font-size: 3.4rem;
+    }
+
+    .part4-heading p {
+        font-size: 0.7rem;
+    }
+
+    .part4 .elements {
+
+        width: 80%;
+        font-size: 0.8rem;
+    }
+
+    .part4 .elements2 {
+
+        width: 80%;
+        font-size: 0.8rem;
+    }
+
+    .part4 .elements3 {
+
+        width: 80%;
+        font-size: 0.8rem;
+    }
+
+    .part5 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+    .part5 .talk {
+        width: 80%;
+    }
+
+    .part5 .talk h2 {
+        font-size: 2.1rem;
+    }
+
+    .part5 .talk p {
+        font-size: 1rem;
+    }
+
+    .part5 .talk .p2 {
+        font-size: 1.1rem;
+        padding-top: 0.7rem;
+
+    }
+
+    .part5 .talk .btn {
+        margin-bottom: 2.5rem;
+    }
+
+    .part5 .img {
+        width: 80%;
+    }
+
+    .part6 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+    .part6 .talk {
+        width: 80%;
+        margin-bottom: 2.5rem;
+    }
+
+    .part6 .talk2 {
+        width: 80%;
+    }
+
+    .part6 .talk h2 {
+        font-size: 2.2rem;
+    }
+
+    .part6 .talk2 h2 {
+        font-size: 3.3rem;
+    }
+
+    .part6 .talk2 h4 {
+        font-size: 1.1rem;
+    }
+
+    .part6 .talk p {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    .part3 .img {
+        width: 80%;
+
+    }
+
+    .part3 .img img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+
+    .part1 .talk h2 {
+        font-size: 3rem;
+    }
+
+    .part1 .talk p {
+        font-size: 1.2rem;
+    }
+
+    .part2 h2 {
+        font-size: 3rem;
+    }
+
+    .part2 p {
+        font-size: 1.1rem;
+    }
+
+    .part3 .talk h4 {
+        font-size: 1.1rem;
+    }
+
+    .part3 .talk h2 {
+        font-size: 3rem;
+    }
+
+    .part3 .talk p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .part3 .talk .talk2 p {
+        font-size: 1rem;
+    }
+
+    .part4-heading h2 {
+        font-size: 3rem;
+    }
+
+    .part4-heading p {
+        font-size: 1rem;
+    }
+
+    .part4 .elements {
+
+        width: 100%;
+    }
+
+    .part4 .elements2 {
+
+        width: 100%;
+    }
+
+    .part4 .elements3 {
+
+        width: 100%;
+    }
+
+    .part5 .talk h2 {
+        font-size: 2rem;
+    }
+
+    .part5 .talk p {
+        font-size: 0.8rem;
+    }
+
+    .part5 .talk .p2 {
+        font-size: 0.9rem;
+        padding-top: 0.7rem;
+
+    }
+
+    .part6 .talk h2 {
+        font-size: 2.5rem;
+    }
+
+    .part6 .talk2 h2 {
+        font-size: 2rem;
+    }
+
+    .part6 .talk2 h4 {
+        font-size: 1.1rem;
+    }
+
+    .part6 .talk p {
+        font-size: 1rem;
+    }
+    .rights {
+        display: none;
+    }
+}
